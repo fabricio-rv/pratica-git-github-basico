@@ -45,4 +45,18 @@ public class DemoLists {
         return resultado;
     }
 
+    int nroRepeat(ArrayList<Integer> l) {
+        return listRepeat(l).size();
+    }
+
+    ArrayList<Integer> intersect(ArrayList<Integer> l1, ArrayList<Integer> l2) {
+        ArrayList<Integer> resultado = new ArrayList<>();
+        for (Integer el : l1) {
+            if (l2.contains(el) && !resultado.contains(el)) {
+                resultado.add(el);
+            }
+        }
+        return resultado;
+    }
+
 }
