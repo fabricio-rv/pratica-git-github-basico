@@ -24,6 +24,7 @@ Vamos iniciar a trabalhar em equipe usando git e github. Assim:
         		ArrayList<Integer> intersect(ArrayList<Integer> l1, ArrayList<Integer> l2)
 ```
 
+  * Crie um repositório onde todos os membros do grupo tenham acesso de atualização.
   * Organize o grupo de forma que uma pessoa desenvolva os métodos "a" e "d", outra o "b" e "e" e outra o "c" e "f".
   * A cada método finalizado, faça commit e compartilhe no github. Lembre-se: se alguém tiver atualizado o repositório anteriormente, 
 será necessário fazer o "pull" e resolver os conflitos;
